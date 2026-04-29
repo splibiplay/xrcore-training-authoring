@@ -1,6 +1,9 @@
 # XRCore Training Authoring
 
-Unity Category AI License: MIT
+[![Unity XR](https://img.shields.io/badge/Unity-XR-111111?style=for-the-badge&logo=unity)](https://unity.com/)
+[![XRCore Suite](https://img.shields.io/badge/XRCore-Product%20Suite-0ea5e9?style=for-the-badge)](https://github.com/splibiplay/splibiplay)
+[![Architecture](https://img.shields.io/badge/Architecture-Editor--First-6366f1?style=for-the-badge)](https://github.com/splibiplay/xrcore-training-authoring)
+[![License: MIT](https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge)](./LICENSE)
 
 XRCore Training Authoring is the official visual authoring layer for Unity XR teams that need to create guided training content at production scale.
 
