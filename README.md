@@ -1,96 +1,61 @@
 # XRCore Training Authoring
 
-[![Unity XR](https://img.shields.io/badge/Unity-XR-111111?style=for-the-badge&logo=unity)](https://unity.com/)
-[![XRCore Suite](https://img.shields.io/badge/XRCore-Product%20Suite-0ea5e9?style=for-the-badge)](https://github.com/splibiplay/splibiplay)
-[![Architecture](https://img.shields.io/badge/Architecture-Editor--First-6366f1?style=for-the-badge)](https://github.com/splibiplay/xrcore-training-authoring)
-[![License: MIT](https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge)](./LICENSE)
+[![Unity](https://img.shields.io/badge/Unity-2022%2B%20%7C%20Unity%206-black)](https://unity.com/)
+[![Module](https://img.shields.io/badge/Module-Authoring%20Layer-2563eb)](#)
+[![Mode](https://img.shields.io/badge/Mode-Editor--First-7a3cff)](#)
+[![Output](https://img.shields.io/badge/Output-Scenarios%20%2B%20Demos-0ea5e9)](#)
+[![License](https://img.shields.io/badge/License-MIT-22c55e)](LICENSE)
 
-XRCore Training Authoring is the official visual authoring layer for Unity XR teams that need to create guided training content at production scale.
+The visual authoring module for scaling XR training production in Unity.
 
-Where XRCore SDK provides the event-driven runtime foundation, Training Toolkit provides guided scenario execution, and Assessment provides scoring and certification, Authoring accelerates content creation through an editor-first workflow.
+## Value in 2 Minutes
 
-## Why XRCore Training Authoring
+1. Install SDK + Toolkit + Assessment + Authoring.
+2. Open the authoring window.
+3. Generate a training scenario with default steps.
+4. Build a playable demo scene and run preflight.
 
-Most teams can run training flows but struggle to scale scenario production.
+## What It Adds
 
-This product solves that by converting manual setup into a repeatable visual pipeline:
+Authoring turns manual scene wiring into repeatable production flows:
+- visual scenario setup
+- step and condition builders
+- generated Toolkit + Assessment assets
+- demo scene generation
+- release preflight and golden lock validation
 
-- define scenario structure,
-- configure steps and conditions,
-- generate Toolkit-ready assets,
-- generate Assessment-ready wiring,
-- generate a playable showcase/demo scene.
+## Ecosystem Position
 
-## Ecosystem Storytelling
-
+```text
+SDK + Toolkit + Assessment
+           ↓
+Training Authoring
+           ↓
+Voice / VisionPlus / LLBridge / Analytics integration
 ```
-Start with XRCore SDK
-       ↓
-Add Training Toolkit
-       ↓
-Add Training Assessment
-       ↓
-Scale with Training Authoring
 
-```
+## Related XRCore Modules
 
-## Relationship with XRCore Ecosystem
-
-This package is intentionally distributed as an extension layer.
-
-- XRCore SDK provides:
-  - event bus and modular runtime systems,
-  - perception/detection architecture,
-  - agent and reasoner foundation.
-- XRCore Training Toolkit provides:
-  - scenario and step orchestration,
-  - validator-driven progression,
-  - guided training runtime UX.
-- XRCore Training Assessment provides:
-  - scoring and pass/fail logic,
-  - critical-failure and policy rules,
-  - exportable final reports.
-- XRCore Training Authoring adds:
-  - visual scenario configuration,
-  - asset generation pipeline,
-  - dependency and preflight gates,
-  - release and QA authoring workflow.
-
-## Key Features
-
-- Training Configurator editor workflow
-- Step builder with condition presets
-- Interaction-signal based workflow authoring
-- Demo scene generator with runtime wiring validation
-- Preflight gate with safe auto-fixes
-- Golden demo lock and release-check automation
-- Session report export for demo validation
-
-## XRCore Ecosystem Links
-
-- XRCore ecosystem hub: <https://github.com/splibiplay/splibiplay>
-- XRCore SDK: <https://github.com/splibiplay/xrcore-sdk>
-- XRCore Training Toolkit: <https://github.com/splibiplay/xrcore-training-toolkit>
-- XRCore Training Assessment: <https://github.com/splibiplay/xrcore-assessment>
-- SPL organization profile: <https://github.com/splibiplay>
+- Hub: [splibiplay](https://github.com/splibiplay/splibiplay)
+- SDK: [xrcore-sdk](https://github.com/splibiplay/xrcore-sdk)
+- Toolkit: [xrcore-training-toolkit](https://github.com/splibiplay/xrcore-training-toolkit)
+- Assessment: [xrcore-assessment](https://github.com/splibiplay/xrcore-assessment)
+- Voice: [xrcore-voice](https://github.com/splibiplay/xrcore-voice)
+- VisionPlus: [xrcore-visionplus](https://github.com/splibiplay/xrcore-visionplus)
+- LLBridge: [xrcore-llbridge](https://github.com/splibiplay/xrcore-llbridge)
+- Analytics: [xrcore-analytics](https://github.com/splibiplay/xrcore-analytics)
 
 ## Documentation
 
-This repository is kept consistent with the XRCore ecosystem style and links.
+In-project docs:
+- `Assets/TrainingAuthoring/Documentation/`
 
-Core in-project docs live in:
+## Commercial Packaging
 
-`Assets/TrainingAuthoring/Documentation/`
-
-Recommended release sequence:
-
-1. Validate dependency compatibility
-2. Run preflight gate
-3. Build package and demo scene
-4. Validate golden demo lock
-5. Run QA smoke report
-6. Run release check report
+- Sold as standalone authoring module.
+- Included in XRCore Complete Pack.
+- Best for teams producing multiple scenarios and client variants.
 
 ## License
 
-MIT License
+MIT License.
